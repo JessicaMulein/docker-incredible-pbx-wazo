@@ -8,3 +8,5 @@ include ./Makefile.include
 
 build:
 	sudo docker build -t "$(REPONAME):$(IMAGENAME)" .
+launch:
+	sudo docker run --init -it --privileged "$(REPONAME):$(IMAGENAME)" .
