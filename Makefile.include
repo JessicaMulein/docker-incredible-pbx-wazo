@@ -1,0 +1,4 @@
+SHELL := /bin/bash
+include ./Makefile.host
+include ../makefiles.docker/Makefile.include
+

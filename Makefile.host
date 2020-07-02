@@ -1,0 +1,9 @@
+REPONAME := teammulein
+DOMAIN := voip
+TLD := apertureimaging.com
+OURUSER := jessica
+OURGROUP := www.users
+IMAGENAME := docker-incredible-pbx-wazo
+INTERNALIP := 192.168.12.76
+DOCKERRMFLAGS := 
+LAUNCHFLAGS := --restart unless-stopped
